@@ -5,7 +5,5 @@ phases:
     commands:
       - apt-get update && apt-get install -y curl git openssh-client
       - echo Environment Vars and Version && echo $(env) && aws --version
-      - aws s3 cp "s3://${S3BUCKET}/${S3PREFIX}id_rsa" /root/.ssh/id_rsa
-      - chmod 600 /root/.ssh/id_rsa
-      - cp config /root/.ssh/config
-      - git clone git@github.com:<your_account>/<your_repo>.git
+      - env
+
