@@ -6,4 +6,4 @@ phases:
       - apt-get update && apt-get install -y curl git openssh-client
       - echo Environment Vars and Version && echo $(env) && aws --version
       - env
-
+      - date
