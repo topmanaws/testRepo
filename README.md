@@ -1,3 +1,4 @@
 # testRepo
+This is in the master branch. 
 
-This should be in the Dev Branch.
+
