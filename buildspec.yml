@@ -6,6 +6,6 @@ phases:
       - apt-get update && apt-get install -y curl git openssh-client wget
       - echo Environment Vars and Version && echo $(env) && aws --version
       - env
-  pre-build:
+  pre_build:
     commands:
       - wget "http://topman-public-bucket.s3.amazonaws.com/foo.txt"
